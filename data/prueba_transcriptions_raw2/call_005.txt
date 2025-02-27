@@ -1,0 +1,9 @@
+Agent: Hello, this is Mark from Payment Solutions. Your account shows a $620 overdue balance.
+Client: I can pay $300 today, but I need time for the rest.
+Agent: We can split the remaining balance into three payments.
+Client: That would be great.
+Agent: Your new payments will be $106.67 each, starting next month.
+Client: That sounds fair. Will I get reminders?
+Agent: Yes, we’ll send text reminders before each payment.
+Client: Great. Let’s proceed.
+Agent: Done! You’ll receive confirmation soon.

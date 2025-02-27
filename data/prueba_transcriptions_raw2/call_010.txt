@@ -1,0 +1,7 @@
+Agent: Good afternoon, this is Amy from Financial Assistance. Your account is past due at $1,500.
+Client: I lost my job. I can’t pay that.
+Agent: We offer hardship plans with reduced payments.
+Client: What’s the lowest option?
+Agent: $50 per month with no interest for six months.
+Client: That helps a lot.
+Agent: I’ll set that up now.

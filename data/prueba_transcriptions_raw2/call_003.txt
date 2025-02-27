@@ -1,0 +1,13 @@
+Agent: Hi, this is Lisa from Finance Assist. I see a balance of $750 on your account.
+Client: I can’t pay the full amount right now. What are my options?
+Agent: We can set up three monthly payments of $250 each.
+Client: That’s still too high. Can we do four instead?
+Agent: Let me check… Yes, we can do four installments of $187.50. Would that work?
+Client: That’s better. When do I have to start?
+Agent: The first payment would be due in two weeks.
+Client: I might need until next month.
+Agent: If we extend the first payment by a month, there would be a small interest charge.
+Client: How much?
+Agent: About $5 per month.
+Client: That’s not too bad. Let’s do it.
+Agent: I’ll send the agreement now.

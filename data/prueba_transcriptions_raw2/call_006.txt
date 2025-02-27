@@ -1,0 +1,7 @@
+Agent: Good morning, this is Susan from Debt Recovery Services. You have a $1,200 balance.
+Client: I can’t afford that much.
+Agent: We can settle for a one-time payment of $800.
+Client: That’s still high. Can you go lower?
+Agent: The lowest we can offer is $750.
+Client: Okay, I can do that.
+Agent: Great! I’ll process the payment now.
