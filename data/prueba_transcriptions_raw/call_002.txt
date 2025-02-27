@@ -1,0 +1,4 @@
+Agent: Good afternoon, John from Recovery Services. Your balance of $350 is overdue.
+Client: I lost my job recently. Can we pause payments for a month?
+Agent: I understand. We can grant a one-month extension.
+Client: Thank you. That would help a lot.

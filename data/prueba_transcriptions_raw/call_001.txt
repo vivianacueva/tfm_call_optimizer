@@ -1,0 +1,5 @@
+Agent: Hello, this is Sarah from Credit Solutions. I'm calling regarding your account balance of $500.
+Client: Hi, yes, I’ve been meaning to discuss that.
+Agent: We can offer a payment plan with reduced interest if you pay $100 today.
+Client: That sounds reasonable. Let's proceed.
+Agent: Great! I’ll send you the confirmation shortly.
