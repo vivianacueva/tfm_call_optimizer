@@ -1,0 +1,5 @@
+Agent: Hi, this is Lisa from Finance Assist. I see a balance of $750 on your account.
+Client: I cannot pay the full amount now. What are my options?
+Agent: We can offer 3 installments of $250 each.
+Client: Can we do 4 installments instead?
+Agent: Let me check... Yes, 4 installments is possible.

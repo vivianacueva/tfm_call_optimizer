@@ -1,0 +1,7 @@
+Agent: Hi, this is Tom from Billing Support. I see a new charge of $600.
+Client: What is that for?
+Agent: It’s a late fee and interest on a past-due balance.
+Client: But I had an extension!
+Agent: It expired last month.
+Client: Can you remove the late fee?
+Agent: I’ll check and get back to you.

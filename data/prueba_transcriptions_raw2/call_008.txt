@@ -1,0 +1,7 @@
+Agent: Hello, this is Jennifer from Credit Services. Your account shows a $400 charge.
+Client: I don’t recognize that!
+Agent: It was labeled as "subscription service" from May 5th.
+Client: I canceled that!
+Agent: We can dispute it. Would you like to proceed?
+Client: Yes!
+Agent: Done! You’ll get an update in 10 business days.
