@@ -141,5 +141,4 @@ if user_input:
 
     # Display current turn
     st.chat_message("user", avatar="✉").markdown(user_input)
-    with st.chat_message("assistant", avatar="🤖"):
-        st.write(answer)
+    st.chat_message("assistant", avatar="🤖").markdown(answer)
