@@ -8,6 +8,7 @@ from pinecone import Pinecone
 from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import RetrievalQA
+import re
 
 # Load environment variables
 load_dotenv()
@@ -52,7 +53,6 @@ Instrucciones:
 2. Si la información no está en el contexto, responde: "No tengo esa información."
 3. Proporciona una respuesta concisa y precisa.
 4. Quiero las respuestas en idioma español.
-5. Al dar las respuestas no incluyas las "instrucciones" ni "provided information" del prompt.
 
 Provided Information
 -------
@@ -134,11 +134,15 @@ user_input = st.chat_input("Haz una pregunta sobre esta llamada o sobre los proc
 
 if user_input:
     response = qa_chain.invoke({"query": user_input})
-    answer = response["result"]
+    answer_raw = response["result"]
 
-    # Update history
-    st.session_state.chat_history.append((user_input, answer))
+    # 🧠 Aplicar regex para limpiar el texto y quedarnos solo con lo útil
+    match = re.search(r'Useful Answer:\n(.*?)(?:\n[A-Z][a-z]+:|\Z)', answer_raw, re.DOTALL)
+    answer_clean = match.group(1).strip() if match else "No se encontró una respuesta útil."
 
-    # Display current turn
+    # ✅ Guardar solo la respuesta limpia en el historial
+    st.session_state.chat_history.append((user_input, answer_clean))
+
+    # ✅ Mostrar la respuesta limpia en la interfaz
     st.chat_message("user", avatar="✉").markdown(user_input)
-    st.chat_message("assistant", avatar="🤖").markdown(answer)
+    st.chat_message("assistant", avatar="🤖").markdown(answer_clean)
