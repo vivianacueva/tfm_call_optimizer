@@ -1,0 +1,7 @@
+Agent: Hi, Mark, this is Jason from Legal Recovery Associates. You have an unpaid balance of $950.
+Client: I know, but I can’t pay now.
+Agent: We might need to take legal action.
+Client: Can I do a partial payment?
+Agent: Yes, $200 today would help.
+Client: I can do $250.
+Agent: I’ll note that and put a hold on legal proceedings.
