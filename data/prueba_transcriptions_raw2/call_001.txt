@@ -1,0 +1,15 @@
+Agent: Hello, this is Sarah from Credit Solutions. I’m calling regarding your account balance of $500.
+Client: Hi, yes, I’ve been meaning to discuss that.
+Agent: Are you facing financial difficulties at the moment?
+Client: A little. I had unexpected medical expenses last month, and I’m trying to catch up.
+Agent: I understand. We have different payment plans that could help. Would you be able to make a partial payment today?
+Client: I can probably do $50 today.
+Agent: That’s great. We can spread the remaining balance over five months at $90 per month, or we can extend it to eight months at $60 per month.
+Client: I’d rather keep my monthly payments lower. What would be the total amount I’d pay with the eight-month plan?
+Agent: With interest, it would come to $515 in total.
+Client: Hmm. That’s not bad, but I was hoping to avoid extra charges.
+Agent: I understand. If you can increase today’s payment to $100, we can waive the interest.
+Client: That’s tempting, but I really can’t do more than $50 today.
+Agent: I can note your account for a one-time interest waiver if you complete two payments of $100 in the next two months.
+Client: That actually works for me.
+Agent: Perfect! I’ll process your $50 today and set up the payments for next month. You’ll receive confirmation shortly.

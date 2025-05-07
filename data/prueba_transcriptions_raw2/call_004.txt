@@ -1,0 +1,8 @@
+Agent: Good morning, this is Alex from Debt Relief Services. I’m contacting you about a $200 balance.
+Client: I made a payment last week.
+Agent: Let me confirm… Yes, we received it. Your remaining balance is $50.
+Client: I’ll clear that today.
+Agent: Would you like to pay over the phone?
+Client: Yes, let’s do that.
+Agent: Done! You’ll receive a confirmation email shortly.
+Client: Thanks!

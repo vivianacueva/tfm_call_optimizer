@@ -1,0 +1,5 @@
+Agent: Hello, Mark from Payment Solutions. Your account shows a $620 overdue balance.
+Client: I can pay $300 today, but the rest next month.
+Agent: I can set up a split payment plan.
+Client: Sounds good. Let’s proceed.
+Agent: I’ve scheduled it. You’ll receive a confirmation shortly.

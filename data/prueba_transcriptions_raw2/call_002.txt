@@ -1,0 +1,13 @@
+Agent: Good afternoon, this is John from Recovery Services. I see your balance of $350 is overdue.
+Client: Yes, I just lost my job and can’t make a payment right now.
+Agent: I’m very sorry to hear that. Would a one-month extension help?
+Client: It would, but I don’t know if I’ll have a job by then.
+Agent: We also offer hardship plans that extend payments over 12 months with no penalties.
+Client: That sounds better. What would the payments look like?
+Agent: It would be about $30 per month for 12 months.
+Client: Okay, but what happens if I miss a payment?
+Agent: If you notify us ahead of time, we can reschedule without late fees.
+Client: That’s really helpful. Will this affect my credit score?
+Agent: No, as long as you follow the agreement.
+Client: I’d like to do that, then.
+Agent: Great! I’ll send you a hardship agreement for signature today.
