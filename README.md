@@ -1,30 +1,43 @@
-# tfm_call_optimizer
-Ponganle wendy!
+# 📞 Optimización del Soporte al Cliente en Call Center mediante GenAI
 
-**test_embeddingsV4-2.ipynb:**
-Almacena las transcripciones en BBDD vectorial haciendo que cada call tenga un ID y estas las separa por chunks de la forma:
-call_001_chunk_001
-call_001_chunk_002
-call_001_chunk_003
-call_002_chunk_001
-call_002_chunk_002
-...etc.
+Este proyecto corresponde al Trabajo de Fin de Máster (TFM) en Data Science & Business Analytics, donde desarrollamos una solución basada en Inteligencia Artificial Generativa (GenAI) para mejorar la eficiencia operativa del área de soporte en call centers.
 
-**test_rag_pipelineV6-2.ipynb:**
-Pruebas de chatbot con transcripciones almacenadas según se hizo en el notebook "test_embeddingsV4-2.ipynb". Es una buena aproximación, pero no da información precisa en todos los casos y en otros casos da información errónea, ya que el código del retriever trae toda la información del RAG.
+El sistema utiliza transcripciones de llamadas telefónicas y documentación interna como fuente de contexto para un asistente conversacional basado en arquitectura RAG (Retrieval-Augmented Generation), desplegado en una interfaz interactiva con Streamlit.
 
-**test_rag_pipelineV7.ipynb:**
-Utiliza el codigo del notebook "test_rag_pipelineV6-2.ipynb", pero tiene ajustes en el retriever, según lo que hablamos con Fernando, en donde en este se especifica la call, lo cual hace que las respuestas del chabot sean muy precisas.
+---
 
-**test_rag_pipelineV8_utils.ipynb:**
-Utiliza funciones importadas desde el fichero "utils.py".
+## 🧠 Tecnologías principales
 
-**utils.py:**
-- Script que guarda funciones para código de notebook "test_rag_pipelineV8.ipynb".
-- Streamlit usa este script para lanzar la app.
+- Python 3.12  
+- Whisper (transcripción de audio)  
+- LangChain (orquestación del pipeline RAG)  
+- Pinecone (base de datos vectorial)  
+- DeepSeek-R1 (LLM open source)  
+- Hugging Face Transformers  
+- Streamlit (interfaz de usuario)  
+- SentenceTransformers (embeddings)  
 
-**test_rag_pipelineV9.ipynb:**
-Utiliza el codigo del notebook "test_rag_pipelineV7.ipynb", pero tiene ajustes en el retriever, para obtener contexto de PDF de soluciones generales. En este código se puede elegir la llamada, pero el contexto del PDF siempre esta activo lo que puede causar respuestas incoherentes a veces. Para arreglar este problema se aplica la solución en código de script "app4.py".
+---
 
-**app4.py**:
-- Se basa en código de "test_rag_pipelineV9.ipynb", pero hace que se elija entre que las respuestas sean específicas de la llamada, del PDF o ambos contextos al mismo tiempo.
+## 👩‍💻 Mi participación
+
+En este proyecto trabajé especialmente en:
+
+- Desarrollo y pruebas del módulo de **transcripción automática con Whisper**.
+- **Procesamiento y limpieza de audios** para asegurar calidad antes de la transcripción.
+- Soporte en la integración de embeddings y vectorización semántica.
+- Validación del pipeline RAG en entorno local.
+
+---
+
+## 📊 Impacto esperado
+
+Según estimaciones de la empresa colaboradora (Sapian), esta solución podría reducir entre un **10% y 15% el tiempo de resolución de incidencias** en soporte técnico, mejorando la experiencia del cliente y optimizando los recursos del call center.
+
+---
+
+## 🔗 Repositorio original
+
+Este repositorio es un fork del trabajo colaborativo original:  
+👉 [claurojasf/tfm_call_optimizer](https://github.com/claurojasf/tfm_call_optimizer)
+
